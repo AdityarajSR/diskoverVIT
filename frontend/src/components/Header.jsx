@@ -33,7 +33,7 @@ const Header = () => {
 				cursor={"pointer"}
 				alt='logo'
 				w={6}
-				src={colorMode === "dark" ? "/favicon.jpg" : "/favicon.jpg"}
+				src={colorMode === "dark" ? "/vit.svg" : "/dv.svg"}
 				onClick={toggleColorMode}
 			/>
 

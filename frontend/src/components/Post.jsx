@@ -71,10 +71,10 @@ const Post = ({ post, postedBy }) => {
 							navigate(`/${user.username}`);
 						}}
 					/>
-					<Box w='1px' h={"full"} bg='gray.light' my={2}></Box>
+					<Box w='1px' h={"full"} my={2}></Box>
 					<Box position={"relative"} w={"full"}>
 						{post.replies.length === 0 && <Text textAlign={"center"}>🥱</Text>}
-						{post.replies[0] && (
+						{/* {post.replies[0] && (
 							<Avatar
 								size='xs'
 								name='John doe'
@@ -108,9 +108,10 @@ const Post = ({ post, postedBy }) => {
 								left='4px'
 								padding={"2px"}
 							/>
-						)}
+						)} */}
 					</Box>
 				</Flex>
+				{/* partition */}
 				<Flex flex={1} flexDirection={"column"} gap={2}>
 					<Flex justifyContent={"space-between"} w={"full"}>
 						<Flex w={"full"} alignItems={"center"}>
